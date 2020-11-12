@@ -7,20 +7,24 @@ header {
 
 nav {
     width: 1000px;
-    height: 50px;
+    height: 30px;
     background-color: deepskyblue;
     margin: 0px auto 0px auto;
 }
 
-ul {
+.containerUL {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
-    background-color: black;
+    width: 500px;
+    height: 25px;
+    margin: 0%;
 }
 
-li {
-    text-align: center;
+.listitem {
     background-color: teal;
-    padding: 2px;
+    text-align: center;
+    padding: 3px;
     margin-left: 5px;
     border-bottom: white solid 2px;
     border-right: white solid 2px;
@@ -30,6 +34,7 @@ li {
 }
 
 a {
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     color: lightgray;
 }
