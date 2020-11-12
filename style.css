@@ -19,16 +19,17 @@ nav {
     width: 500px;
     height: 25px;
     margin: 0%;
+    padding: 0%;
 }
 
 .listitem {
     background-color: teal;
     text-align: center;
-    padding: 3px;
+    padding: 2px;
     margin-left: 5px;
     border-bottom: white solid 2px;
     border-right: white solid 2px;
-    height: auto;
+    height: 20px;
     width: 100px;
     float: left;
 }
