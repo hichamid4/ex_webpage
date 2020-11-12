@@ -1,33 +1,50 @@
-
-
 header {
     width: 1000px;
     height: 100px;
     background-color: greenyellow;
-    margin: auto;
+    margin: 0px auto 0px auto;
 }
 
 nav {
     width: 1000px;
     height: 50px;
     background-color: deepskyblue;
-    margin: auto;
+    margin: 0px auto 0px auto;
+}
+
+ul {
+    list-style: none;
+    background-color: black;
+}
+
+li {
+    text-align: center;
+    background-color: teal;
+    padding: 2px;
+    margin-left: 5px;
+    border-bottom: white solid 2px;
+    border-right: white solid 2px;
+    height: auto;
+    width: 100px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
 }
 
 main {
     width: 1000px;
     height: 800px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: darkred;
+    margin: 0px auto 0px auto;
 }
 
 footer {
     width: 1000px;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
     background-color: lightskyblue;
+    margin: 0px auto 0px auto;
+
 }
-
-
