@@ -1,9 +1,27 @@
+/* --------------------------------------------header------------------------- */
 header {
     width: 1000px;
     height: 100px;
     background-color: greenyellow;
     margin: 0px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
+#logo1 {
+    height: 100px;
+    margin: 0px auto 0px auto;
+    background-color: brown;
+}
+
+#logo2 {
+    height: 100px;
+    margin: 0px auto 0px auto;
+    padding: 0%;
+    background-color: chocolate;
+}
+/* ---------------------------------navBar------------------ */
 
 nav {
     width: 1000px;
@@ -85,11 +103,24 @@ nav {
     cursor: pointer;
 }
 
+/* -----------------------------Main-------------- */
+
 main {
     width: 1000px;
     height: 800px;
-    background-color: darkred;
+    background-color: rgba(126, 183, 221, 0.699);
     margin: 0px auto 0px auto;
+}
+
+main h1 {
+    margin: 5px 0px 0px 0px;
+    color: aqua;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    border-bottom: rgb(73, 240, 184) solid 1px;
+    border-right: 1px solid rgb(73, 240, 184);
+
 }
 
 footer {
