@@ -11,19 +11,25 @@ nav {
     background-color: deepskyblue;
     margin: 0px auto 0px auto;
 }
+.navContainer {
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .containerUL {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    background-color: none;
     width: 500px;
     height: 25px;
     margin: 0%;
     padding: 0%;
 }
 
-.listitem {
-    background-color: teal;
+.listItem {
+    background-color: rgba(0, 128, 128,0.7);
     text-align: center;
     padding: 2px;
     margin-left: 5px;
@@ -31,13 +37,52 @@ nav {
     border-right: white solid 2px;
     height: 20px;
     width: 100px;
-    float: left;
 }
 
-a {
+.listItem a {
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     color: lightgray;
+}
+
+.listItem a:hover {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: cyan ;
+}
+
+.info input {
+    border: 2px solid darkgrey;
+    border-radius: 50px;
+    height: 20px;
+}
+
+.info button {
+    background-color: lightseagreen;
+    border-radius: 50px;
+    border: 1px solid lightseagreen;
+}
+
+.info a {
+    text-align: center;
+    color: bisque;
+    text-decoration: none;
+}
+
+.info button:hover  {
+    background-color:  bisque;
+    border-radius: 50px;
+    border: 1px solid bisque;
+    cursor: pointer;
+}
+
+.info a:hover {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    font-size: 15px;    
+    color:  cyan;
+    cursor: pointer;
 }
 
 main {
